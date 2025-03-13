@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.cluster import KMeans
 
 # Load your customer data
-customer_data = pd.read_csv('C:/Users/Rahul/Desktop/Web_App/Data_Science/Customer Segmentation/data/raw/Mall_Customers.csv')
+customer_data = pd.read_csv('C:/Users/Rahul/Desktop/DSA/Data_Science/Customer_Segmentation/data/raw/Mall_Customers.csv')
 
 # Check if the 'Cluster' column exists; if not, create it using KMeans
 if 'Cluster' not in customer_data.columns:
